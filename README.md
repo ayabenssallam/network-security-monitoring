@@ -1,6 +1,6 @@
-#🔐 Network Security Monitoring & Intrusion Detection System
+#  🔐 Network Security Monitoring & Intrusion Detection System
 
-##📌 Description
+## 📌 Description
 
 This project is a lightweight Network Security Monitoring and Intrusion Detection System (IDS) designed to analyze local network traffic and detect suspicious activities in real time.
 
@@ -8,7 +8,7 @@ It leverages tools like Nmap and Wireshark to identify active hosts, monitor con
 
 ---
 
-##🎯 Objectives
+## 🎯 Objectives
 
 - Monitor local network activity
 - Detect suspicious or unknown devices
@@ -17,7 +17,7 @@ It leverages tools like Nmap and Wireshark to identify active hosts, monitor con
 
 ---
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Kali Linux
 - Nmap
@@ -26,7 +26,7 @@ It leverages tools like Nmap and Wireshark to identify active hosts, monitor con
 
 ---
 
-##⚙️ Features
+## ⚙️ Features
 
 - 🔎 Network scanning using Nmap
 - 🌐 Active host discovery
@@ -36,19 +36,19 @@ It leverages tools like Nmap and Wireshark to identify active hosts, monitor con
 
 ---
 
-##🚀 Usage
+## 🚀 Usage
 
-###1. Network Scan
+### 1. Network Scan
 
 nmap -sn 192.168.128.0/24
 
-###2. Run Python Script
+### 2. Run Python Script
 
 python3 network_monitor.py
 
 ---
 
-##🧠 How It Works
+## 🧠 How It Works
 
 1. The system scans the local network using Nmap
 2. Extracts active devices (IP & MAC)
@@ -58,7 +58,7 @@ python3 network_monitor.py
 
 ---
 
-##📁 Project Structure
+## 📁 Project Structure
 
 project/
 │── network_monitor.py
@@ -68,7 +68,7 @@ project/
 
 ---
 
-##🚨 Future Improvements
+## 🚨 Future Improvements
 
 - Real-time monitoring (continuous scanning loop)
 - Logging system for detected events
@@ -78,12 +78,12 @@ project/
 
 ---
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is for educational and ethical purposes only. Do not use it on networks without permission.
 
 ---
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Aya BENSSALLAM
