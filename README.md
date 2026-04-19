@@ -6,16 +6,12 @@ This project is a lightweight Network Security Monitoring and Intrusion Detectio
 
 It leverages tools like Nmap and Wireshark to identify active hosts, monitor connectivity, and detect potential anomalies within a network.
 
----
-
 ## 🎯 Objectives
 
 - Monitor local network activity
 - Detect suspicious or unknown devices
 - Identify active hosts (IP & MAC addresses)
 - Improve overall network security posture
-
----
 
 ## 🛠️ Technologies Used
 
@@ -24,8 +20,6 @@ It leverages tools like Nmap and Wireshark to identify active hosts, monitor con
 - Wireshark (optional)
 - Python / Bash
 
----
-
 ## ⚙️ Features
 
 - 🔎 Network scanning using Nmap
@@ -33,8 +27,6 @@ It leverages tools like Nmap and Wireshark to identify active hosts, monitor con
 - 🧾 IP & MAC address extraction
 - 📡 Connectivity testing (Ping)
 - 🚨 Basic anomaly detection (new/unknown devices)
-
----
 
 ## 🚀 Usage
 
@@ -46,8 +38,6 @@ nmap -sn 192.168.128.0/24
 
 python3 network_monitor.py
 
----
-
 ## 🧠 How It Works
 
 1. The system scans the local network using Nmap
@@ -55,8 +45,6 @@ python3 network_monitor.py
 3. Verifies connectivity using ping
 4. Compares detected devices with a known list
 5. Generates alerts for unknown or suspicious devices
-
----
 
 ## 📁 Project Structure
 
@@ -66,8 +54,6 @@ project/
 │── known_devices.txt
 │── README.md
 
----
-
 ## 🚨 Future Improvements
 
 - Real-time monitoring (continuous scanning loop)
@@ -76,13 +62,9 @@ project/
 - Integration with alert systems (email/notifications)
 - Advanced packet analysis
 
----
-
 ## ⚠️ Disclaimer
 
 This project is for educational and ethical purposes only. Do not use it on networks without permission.
-
----
 
 ## 👨‍💻 Author
 
